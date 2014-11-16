@@ -1,12 +1,27 @@
+*.ipr
+*.iws
+*.iml
+*.ids
+target
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+*/test/reports/html*
+*/test/reports/plain*
+*/test/reports/*
+*/test-output/*
+*.log.*
+*.log
+*test-output/*
+*.orig
+*out/*
+*/src/main/config/local*
+*/src/main/groovy/local*
+.project
+.tmp_*
+*tmp_*
+*Thumbs.db
+*.sql~
+q
+.settings/*
+*.idea
+atlassian-ide-plugin.xml
+*/plugin.xml
